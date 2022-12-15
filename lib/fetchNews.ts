@@ -65,14 +65,10 @@ const fetchNews = async (
     }
   );
 
-  console.log("Fetching data from apı>>>", category, keywords);
-
   const newsResponse = await res.json();
 
   //Sort function by images present
   const news = sortNewsByImage(newsResponse.data.myQuery);
-
-  console.log(news);
 
   // retunr res
 

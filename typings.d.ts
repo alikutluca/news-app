@@ -2,7 +2,7 @@ type Article = {
   author: string | null;
   category: string;
   country: string;
-  descripton: string;
+  description: string;
   image: string | null;
   language: string;
   published_at: string;
